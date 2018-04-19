@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Server", "Choless.Server\Choless.Server.csproj", "{46FE33AC-ADC0-4CF8-9E2E-8C03CDA32B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Core.Test", "Choless.Core.Test\Choless.Core.Test.csproj", "{50051AB0-F06B-477D-BE12-CA700BF3AF15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Core", "Choless.Core\Choless.Core.csproj", "{7822329C-CD97-481E-B94D-67C855324CB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46FE33AC-ADC0-4CF8-9E2E-8C03CDA32B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FE33AC-ADC0-4CF8-9E2E-8C03CDA32B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FE33AC-ADC0-4CF8-9E2E-8C03CDA32B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FE33AC-ADC0-4CF8-9E2E-8C03CDA32B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50051AB0-F06B-477D-BE12-CA700BF3AF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50051AB0-F06B-477D-BE12-CA700BF3AF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50051AB0-F06B-477D-BE12-CA700BF3AF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50051AB0-F06B-477D-BE12-CA700BF3AF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7822329C-CD97-481E-B94D-67C855324CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7822329C-CD97-481E-B94D-67C855324CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7822329C-CD97-481E-B94D-67C855324CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7822329C-CD97-481E-B94D-67C855324CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
