@@ -1,0 +1,20 @@
+[
+    {
+        "BrandId": "00000000000000000000000000000001",
+        "BrandName": "Choless",
+        "BusinessScopes": [{
+            "BusinessScopeId": "0000000000000000000000000000000000000000000000000000000000000001",
+            "CommodityClass": "Information Platform"
+        }],
+        "WebSite": "www.choless.com",
+        "Headquarters": {
+            "HeadquartersId": "headquarters id",
+            "Country": "China",
+            "Province": "Shanghai",
+            "City": "Shanghai",
+            "Address": "No. 800 Dongchuan Road"
+        },
+        "EstablishedTime": "2018-3-3T12:12:00",
+        "Description": "A company to make less choices."
+    }
+]
