@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Server", "Choless.Server\Choless.Server.csproj", "{46FE33AC-ADC0-4CF8-9E2E-8C03CDA32B3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Server", "Sources\Server\Server.csproj", "{46FE33AC-ADC0-4CF8-9E2E-8C03CDA32B3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Core.Test", "Choless.Core.Test\Choless.Core.Test.csproj", "{50051AB0-F06B-477D-BE12-CA700BF3AF15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Core.Test", "Tests\Choless.Core.Test\Choless.Core.Test.csproj", "{50051AB0-F06B-477D-BE12-CA700BF3AF15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Core", "Choless.Core\Choless.Core.csproj", "{7822329C-CD97-481E-B94D-67C855324CB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Core", "Sources\Core\Core.csproj", "{7822329C-CD97-481E-B94D-67C855324CB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{3D16198E-EFF4-49CB-ABE1-C346ADC5AA95}"
 EndProject
