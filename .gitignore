@@ -288,5 +288,5 @@ __pycache__/
 *.xsd.cs
 
 ######################## Custom Directories and Files #########################
-Choless.Data/MySQL/
+Sources/Choless.Data/MySQL/
 
