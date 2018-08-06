@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Core.Test", "Choles
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Choless.Core", "Choless.Core\Choless.Core.csproj", "{7822329C-CD97-481E-B94D-67C855324CB8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{3D16198E-EFF4-49CB-ABE1-C346ADC5AA95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{EB7DF2A9-010F-46CE-90DB-E1998E821AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +29,10 @@ Global
 		{7822329C-CD97-481E-B94D-67C855324CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7822329C-CD97-481E-B94D-67C855324CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7822329C-CD97-481E-B94D-67C855324CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50051AB0-F06B-477D-BE12-CA700BF3AF15} = {3D16198E-EFF4-49CB-ABE1-C346ADC5AA95}
+		{7822329C-CD97-481E-B94D-67C855324CB8} = {EB7DF2A9-010F-46CE-90DB-E1998E821AAA}
+		{46FE33AC-ADC0-4CF8-9E2E-8C03CDA32B3E} = {EB7DF2A9-010F-46CE-90DB-E1998E821AAA}
 	EndGlobalSection
 EndGlobal
