@@ -29,7 +29,7 @@ namespace Choless.Core.Test.Tools
             };
             var brand = new Brand
             {
-                BrandId = "00000000000000000000000000000001",
+                Id = "00000000000000000000000000000001",
                 BrandName = "Choless",
                 WebSite = "www.choless.com",
                 Headquarters = headquarters,

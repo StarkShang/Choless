@@ -10,7 +10,7 @@ namespace Choless.Core.Brands
     {
         [Key]
         [StringLength(32, MinimumLength = 32)]
-        public string BrandId { get; set; }
+        public string Id { get; set; }
         [Required]
         public string BrandName { get; set; }
         [Required]

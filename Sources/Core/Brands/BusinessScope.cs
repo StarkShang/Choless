@@ -35,7 +35,7 @@ namespace Choless.Core.Brands
             return BusinessScopeId == scope.BusinessScopeId
               && ((Brand != null && scope.Brand != null)
                && ((Brand == null && scope.Brand == null)
-                 || Brand.BrandId == scope.Brand.BrandId))
+                 || Brand.Id == scope.Brand.Id))
               && CommodityClass == scope.CommodityClass;
 		}
 

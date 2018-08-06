@@ -2,8 +2,21 @@
 
 namespace Choless.Core.Tools
 {
+    public enum Environments
+    {
+        Development,
+        Test,
+        Release
+    }
+    
     public static class EnvironmentTool
     {
+        private const string EnvironmentVariable = "ASPNETCORE_ENVIRONMENT";
+
+        public static Environments CurrentEnvironment { get {
+            return (Environments)Enum.Parse(typeof(Environments), Environment.GetEnvironmentVariable(EnvironmentVariable));
+        }}
+
         public static bool IsTestEnvironment
         {
             get

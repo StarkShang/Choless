@@ -18,7 +18,7 @@ namespace Choless.Core.Test.Brands
             var scope = new BusinessScope { CommodityClass = "Information Platform" };
             var brand = new Brand
             {
-                BrandId = "00000000000000000000000000000001",
+                Id = "00000000000000000000000000000001",
                 BrandName = "Choless",
                 BusinessScopes = new BusinessScope[] { scope },
                 WebSite = "www.choless.com",
